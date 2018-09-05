@@ -7,5 +7,4 @@ brancher:
     - "dev"
     - "master"
 script:
-  - 'npm run install'
   - 'npm run cover'
