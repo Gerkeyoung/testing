@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "cnpm install",
+    "install": "npm install",
     "test": "mocha test/simple.js",
     "cover": "istanbul.cmd cover node_modules/mocha/bin/_mocha test/simple.js "
   },
