@@ -8,5 +8,8 @@ brancher:
 install:
     - "npm install"
     - "npm install -g codecov"
+env:  
+  global:
+    - CODECOV_TOKEN: "7b6d764f-e0db-4384-8bde-b02baac9ff8c"
 script:
   - 'npm run cover'
