@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha test/simple.js",
     "cover": "istanbul cover _mocha --reporter test/simple.js",
-    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "mocha": "^5.2.0"
   },
   "devDependencies": {
+    "coveralls": "^3.0.2",
     "nyc": "^13.0.1"
   }
 }
